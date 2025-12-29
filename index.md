@@ -11,7 +11,7 @@ Academic personal website.
 - Kinetic theory
 - Integro-differential equations  
 - Structured population models  
-- Mathematical biology  
+- Mathematical biology
 - Multi-scale modelling
 
 - ### Contact
