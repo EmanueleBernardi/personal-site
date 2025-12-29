@@ -1,2 +1,2 @@
-# Nome Cognome
+# Emanuele Bernardi
 Academic personal website.
