@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications — Emanuele Bernardi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Cormorant Garamond', serif;
+            background-color: #f7f5f0;
+            color: #1a1a1a;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #1a1a1a;
+            padding: 0.5rem 0 2rem;
+            margin-bottom: 2rem;
+        }
+        header a {
+            border: 1.5px solid #1a1a1a;
+            background-color: #F7567C;
+            padding: 0.6rem 1.2rem;
+            text-decoration: none;
+            color: #1a1a1a;
+            font-size: 1.2rem;
+            white-space: nowrap;
+        }
+        h1 {
+            font-size: 2.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: flex-end;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            margin-top: -0.5rem;
+        }
+        nav a {
+            border: 1.5px solid #1a1a1a;
+            padding: 0.6rem 1.2rem;
+            text-decoration: none;
+            color: #1a1a1a;
+            font-size: 1.1rem;
+            background-color: #f7f5f0;
+        }
+        nav a.active {
+            background-color: #1a1a1a;
+            color: #f7f5f0;
+        }
+        main {
+            padding: 2rem 0;
+            margin-top: -1.5rem;
+        }
+        .a-capo {
+            display: inline;
+        }
+        @media (max-width: 600px) {
+            .a-capo {
+                display: block;
+                height: 0;
+            }
+        }
+
+        /* Publications specifico */
+        h2 {
+    font-size: 1.8rem;
+    border-bottom: 1px solid #1a1a1a;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.pub-item {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #c8c2b4;
+}
+
+.pub-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+.pub-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.pub-year {
+    font-size: 1rem;
+    color: #8a8a8a;
+    white-space: nowrap;
+}
+
+.pub-authors {
+    font-style: italic;
+    color: #4a4a4a;
+    margin-top: 0.3rem;
+}
+
+.pub-journal {
+    font-size: 1rem;
+    margin-top: 0.2rem;
+}
+
+.pub-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #e85d75;
+    text-decoration: none;
+    font-size: 0.9rem;
+    border: 1px solid #e85d75;
+    padding: 0.2rem 0.6rem;
+}
+@media (max-width: 700px) {
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        font-size: 0.85rem;
+        padding: 0.4rem 0.7rem;
+    }
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>Emanuele <span class="a-capo"></span>Bernardi</h1>
+        <a href="cv.pdf">Download Full CV</a>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="publications.html" class="active">Publications</a>
+        <a href="research.html">Research</a>
+        <a href="outreach.html">Outreach</a>
+    </nav>
+
+    <main>
+    <h2>Publications</h2>
+
+    <div class="pub-item">
+        <div class="pub-header">
+            <span class="pub-title">Derivation and quasi-invariant asymptotics of phenotype-structured integro-differential models</span>
+            <span class="pub-year">2025</span>
+        </div>
+        <div class="pub-authors">E. Bernardi, T. Lorenzi, A. Tosin</div>
+        <div class="pub-journal">arXiv preprint arXiv:2510.15646</div>
+        <a class="pub-link" href="https://arxiv.org/abs/2510.15646" target="_blank">arXiv ↗</a>
+    </div>
+
+    <div class="pub-item">
+        <div class="pub-header">
+            <span class="pub-title">Heterogeneously Structured Compartmental Models of Epidemiological Systems: From Individual-Level Processes to Population-Scale Dynamics</span>
+            <span class="pub-year">2025</span>
+        </div>
+        <div class="pub-authors">E. Bernardi, T. Lorenzi, M. Sensi, A. Tosin</div>
+        <div class="pub-journal">Studies in Applied Mathematics, 155(2): e70091</div>
+        <a class="pub-link" href="https://doi.org/10.1111/sapm.70091" target="_blank">DOI ↗</a>
+    </div>
+
+    <div class="pub-item">
+        <div class="pub-header">
+            <span class="pub-title">Effects of vaccination efficacy on wealth distribution in kinetic epidemic models</span>
+            <span class="pub-year">2022</span>
+        </div>
+        <div class="pub-authors">E. Bernardi, L. Pareschi, G. Toscani, M. Zanella</div>
+        <div class="pub-journal">Entropy, 22(2):216</div>
+        <a class="pub-link" href="https://doi.org/10.3390/e24020216" target="_blank">DOI ↗</a>
+    </div>
+
+\   </main>
+
+
+</body>
+</html>

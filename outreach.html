@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outreach — Emanuele Bernardi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Cormorant Garamond', serif;
+            background-color: #f7f5f0;
+            color: #1a1a1a;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #1a1a1a;
+            padding: 0.5rem 0 2rem;
+            margin-bottom: 2rem;
+        }
+        header a {
+            border: 1.5px solid #1a1a1a;
+            background-color: #F7567C;
+            padding: 0.6rem 1.2rem;
+            text-decoration: none;
+            color: #1a1a1a;
+            font-size: 1.2rem;
+            white-space: nowrap;
+        }
+        h1 {
+            font-size: 2.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: flex-end;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            margin-top: -0.5rem;
+        }
+        nav a {
+            border: 1.5px solid #1a1a1a;
+            padding: 0.6rem 1.2rem;
+            text-decoration: none;
+            color: #1a1a1a;
+            font-size: 1.1rem;
+            background-color: #f7f5f0;
+        }
+        nav a.active {
+            background-color: #1a1a1a;
+            color: #f7f5f0;
+        }
+        main {
+            padding: 2rem 0;
+            margin-top: -1.5rem;
+        }
+        .a-capo {
+            display: inline;
+        }
+        @media (max-width: 600px) {
+            .a-capo {
+                display: block;
+                height: 0;
+            }
+        }
+        h2 {
+    font-size: 1.8rem;
+    border-bottom: 1px solid #1a1a1a;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.outreach-item {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #c8c2b4;
+}
+
+.outreach-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+.outreach-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.outreach-year {
+    font-size: 1rem;
+    color: #8a8a8a;
+    white-space: nowrap;
+}
+
+.outreach-place {
+    font-style: italic;
+    color: #4a4a4a;
+    margin-top: 0.2rem;
+}
+
+.outreach-detail {
+    font-size: 1rem;
+    margin-top: 0.3rem;
+}
+@media (max-width: 700px) {
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        font-size: 0.85rem;
+        padding: 0.4rem 0.7rem;
+    }
+}
+</style>
+<body>
+    <header>
+        <h1>Emanuele <span class="a-capo"></span>Bernardi</h1>
+        <a href="cv.pdf">Download Full CV</a>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="publications.html">Publications</a>
+        <a href="research.html">Research</a>
+        <a href="outreach.html"class="active">Outreach</a>
+    </nav>
+
+  
+<main>
+    <h2>Outreach</h2>
+
+    <div class="outreach-item">
+        <div class="outreach-header">
+            <span class="outreach-title">Student Association Matematica Pavese</span>
+            <span class="outreach-year">2018–2021</span>
+        </div>
+        <div class="outreach-place">University of Pavia</div>
+        <div class="outreach-detail">Founder and President. Organised seminars and meetings connecting students with academic and professional speakers.</div>
+    </div>
+
+    <div class="outreach-item">
+        <div class="outreach-header">
+            <span class="outreach-title">Accademia dei Giovani per la Scienza</span>
+            <span class="outreach-year">2018–2022</span>
+        </div>
+        <div class="outreach-detail">Member and tutor. Promoting scientific engagement among high-school students.</div>
+    </div>
+
+    <div class="outreach-item">
+        <div class="outreach-header">
+            <span class="outreach-title">Ghislieri Scienza</span>
+            <span class="outreach-year">2016–2018</span>
+        </div>
+        <div class="outreach-detail">Member and organiser of the scientific festival <em>Indiscienza</em>.</div>
+    </div>
+
+</main>
+
+
+</body>
+</html>
